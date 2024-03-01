@@ -23,7 +23,7 @@ console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}
 
 setInterval(() => client.user.setActivity({ 
   name: `Noblefu Media Team🚨`, 
-  type: ActivityType.LISTENING }), 10000);
+  type: ActivityType.PLAYINGA }), 10000);
 client.errorLog = config.errorLog
 } else {
 console.log('\x1b[36m%s\x1b[0m', `|    🍔 Error MongoDB!`)
